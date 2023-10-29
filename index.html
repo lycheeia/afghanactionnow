@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+
+<body>
+  <center><h1 class="para">AAA Email Template
+  </h1></center>
+  <center><p class="para">
+    Greetings, 
+    <br>
+    I am writing to you as a constituent from the area of zip code [INSERT YOUR ZIP CODE HERE].
+    <br>
+    Many of the Afghan refugees evacuated by the U.S. in 2021 continue to be on humanitarian parole, with many more  evacuation efforts ongoing. However, humanitarian parole is only temporary and does not provide a streamlined pathway to permanent status like the SIV program offers. Additionally, these parolees are not technically considered refugees and cannot receive resettlement benefits. The Afghan Adjustment Act (AAA) would enable asylum seekers from Afghanistan to apply for lawful permanent residency, which would benefit an estimated 185,000 American-affiliated Afghans. As my elected official, I urge you to defend the right of these families and individuals to move from parole to permanent protection.
+    <br>
+    I strongly support the the following bill, and expect you to vote for this now or when it reaches your office:
+    S.2327 by Sen. Amy Klobuchar 
+    <br>
+    I would like your office to record my opinion on this bill and take it into consideration when you vote. As your constituent, I will be attentively monitoring how you vote on issues related to immigration, specifically those for Afghan immigrants, and forming my own vote in the upcoming elections based on your decisions. 
+    <br>
+    Failing to pass this bill would result in the overflow of an already backlogged affirmative asylum system, which would only prove detrimental to Afghan neighbors who have experienced the chaos and persecution of the Taliban. Historically, Congress has  adjusted the status of Vietnamese, Cuban, and Iraqi wartime evacuees. We have an obligation to safeguard those who are in danger due to race, ethnicity, gender, religion, and political expression. Now, more than ever, it is crucial that the U.S. take corrective measures to protect our Afghan neighbors.
+  </p></center>
+  <center><input type="text" id="prompt" value="Greetings, 
+
+    I am writing to you as a constituent from the area of zip code [INSERT YOUR ZIP CODE HERE].
+
+    Many of the Afghan refugees evacuated by the U.S. in 2021 continue to be on humanitarian parole, with many more  evacuation efforts ongoing. However, humanitarian parole is only temporary and does not provide a streamlined pathway to permanent status like the SIV program offers. Additionally, these parolees are not technically considered refugees and cannot receive resettlement benefits. The Afghan Adjustment Act (AAA) would enable asylum seekers from Afghanistan to apply for lawful permanent residency, which would benefit an estimated 185,000 American-affiliated Afghans. As my elected official, I urge you to defend the right of these families and individuals to move from parole to permanent protection.
+
+    I strongly support the the following bill, and expect you to vote for this now or when it reaches your office:
+    S.2327 by Sen. Amy Klobuchar 
+
+    I would like your office to record my opinion on this bill and take it into consideration when you vote. As your constituent, I will be attentively monitoring how you vote on issues related to immigration, specifically those for Afghan immigrants, and forming my own vote in the upcoming elections based on your decisions. 
+
+    Failing to pass this bill would result in the overflow of an already backlogged affirmative asylum system, which would only prove detrimental to Afghan neighbors who have experienced the chaos and persecution of the Taliban. Historically, Congress has  adjusted the status of Vietnamese, Cuban, and Iraqi wartime evacuees. We have an obligation to safeguard those who are in danger due to race, ethnicity, gender, religion, and political expression. Now, more than ever, it is crucial that the U.S. take corrective measures to protect our Afghan neighbors."></center>
+
+<section>
+  <center><button class="btn" onclick="copyText()">Copy Template</button></center>
+  
+  <center><a href="mailto: dutch.ruppersberger@mail.house.gov, ben_cardin@cardin.senate.gov, tricia_russell@vanhollen.senate.gov?subject= Constituent Demand - AFGHAN ADJUSTMENT ACT">Send Email</a>
+  </center>
+</section>
+  
+  <script>
+    function copyText() {
+      /* Get the text field */
+      var copyText = document.getElementById("prompt");
+
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      document.execCommand("copy");
+
+      /* Alert the copied text */
+      alert("Copied the text: " + copyText.value);
+    }
+    </script>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+</body>
+
+</html>
